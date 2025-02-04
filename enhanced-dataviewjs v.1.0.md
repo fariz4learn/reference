@@ -972,4 +972,34 @@ var EnhancedDataviewJS = class extends import_obsidian.Plugin {
 }
 ```
 
+----------------------------------------------------------------
+Purpose and Overview:
+This plugin is an enhancement for the DataviewJS functionality in Obsidian, providing additional features and improved capabilities for rendering and manipulating data. It's designed to work alongside the existing Dataview plugin while adding new functionality.
+
+Key Features:
+
+External Library Integration:
+
+Supports React (v17.0.2)
+ReactDOM (v17.0.2)
+Material-UI (v5.14.11)
+Manages library loading dynamically through the LibraryManager class
+Enhanced UI Components:
+
+Custom card creation with Material-UI integration
+Styled notifications/messages:
+Info messages (blue)
+Warning messages (orange)
+Success messages (green)
+Error messages (red)
+Material-UI button components
+Core Functionality:
+
+Extended DataviewJS API with additional features
+Custom component creation system
+Error handling and reporting
+UTC time formatting
+Table generation
+List creation
+Container management
 
